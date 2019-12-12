@@ -10,4 +10,5 @@ def my_each(array)
 end
 
 my_each(array) do |word|
-  puts 
+  puts word
+end
