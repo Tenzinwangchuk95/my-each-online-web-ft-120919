@@ -7,6 +7,7 @@ def my_each(array)
     end
   else
     return "This block should not run!"
+  end
 end
 
 my_each(array) do |word|
