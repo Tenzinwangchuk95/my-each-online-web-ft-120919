@@ -13,3 +13,5 @@ end
 my_each(['hi', 'hello', 'bye', 'goodbye']) do |word|
   p word
 end
+
+my_each
