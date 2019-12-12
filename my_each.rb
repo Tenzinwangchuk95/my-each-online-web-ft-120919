@@ -14,4 +14,5 @@ my_each(['hi', 'hello', 'bye', 'goodbye']) do |word|
   p word
 end
 
-my_each()
+my_each(['arel', 'jon', 'logan', 'spencer']) do |name|
+  names << name.split(", ")
