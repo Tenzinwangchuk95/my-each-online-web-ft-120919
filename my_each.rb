@@ -16,3 +16,4 @@ end
 
 my_each(['arel', 'jon', 'logan', 'spencer']) do |name|
   names << name.split(", ")
+end
