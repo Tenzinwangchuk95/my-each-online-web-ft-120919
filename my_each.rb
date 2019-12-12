@@ -12,7 +12,7 @@ def my_each(array)
 end
 
 my_each(['hi', 'hello', 'bye', 'goodbye']) do |word|
-  p word
+  return word
 end
 
 my_each(['arel', 'jon', 'logan', 'spencer']) do |name|
