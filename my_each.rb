@@ -10,6 +10,6 @@ def my_each(array)
   end
 end
 
-my_each() do |word|
+my_each(['hi', 'hello', 'bye', 'goodbye']) do |word|
   puts word
 end
