@@ -9,4 +9,5 @@ def my_each(array)
     return "This block should not run!"
 end
 
-my_each(array)
+my_each(array) do |word|
+  
