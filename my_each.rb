@@ -8,6 +8,7 @@ def my_each(array)
   else
     return "This block should not run!"
   end
+  array
 end
 
 my_each(['hi', 'hello', 'bye', 'goodbye']) do |word|
