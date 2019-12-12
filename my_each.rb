@@ -1,3 +1,5 @@
 def my_each(array)
-  while 
+  if block_given?
+    counter = 0 
+    
 end
